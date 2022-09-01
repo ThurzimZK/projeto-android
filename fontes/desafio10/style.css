@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Escola';
+    src: url('fontes/IntroHeadR-Base.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    background-image: linear-gradient(to bottom, #46fc98, #16462d);
+    text-align: center;
+    color: white;
+}
+header > h1{
+    font-family: 'Escola';
+    margin-top: 0px;
+    padding-top: 13px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.438)
+    
+}
+header > nav{
+    text-align: left;
+}
+nav{
+    padding: 3px;
+}
+nav > a{
+    text-decoration: none;
+    color: #94c4aa;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 4px; 
+    border-radius: 3px;
+}
+nav > a:hover{
+    background-color: #39b973;
+}
+main > h1{
+    font-family: 'Android';
+}
+
+footer{
+    color: white;
+    background-color: #1A5C38;
+    text-align: center;
+    font-weight: lighter;
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-style: italic;
+}
+footer > p{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 2px;
+}

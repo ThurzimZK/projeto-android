@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color:  #7beeaf;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #46fc98, #16462d);
+    text-align: center;
+    color: white;
+}
+header > h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 2.5em;
+    margin-top: 0px;
+    padding-top: 13px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466)
+    
+}
+header > p{
+    margin-top: -15px;
+    padding-top: -15px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+header > nav{
+    text-align: left;
+}
+nav{
+    padding: 3px;
+}
+nav > a{
+    text-decoration: none;
+    color: #94c4aa;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 4px; 
+    border-radius: 3px;
+}
+nav > a:hover{
+    background-color: #39b973;
+}
+p > a{
+    text-decoration: none;
+    color: #1A5C38;
+    font-weight: bold;
+}
+p > a.link{
+    text-decoration: none;
+    color: #1A5C38;
+    font-weight: bold;
+    background-color: #0ab8585e;
+}
+main{
+    padding: 10px;
+    display: inline-block;
+    width: 800px;
+    background-color: white;
+}
+main > h1{
+    font-family: 'Android', sans-serif;
+    text-align: left;
+    color: #134228;
+}
+main > h2{
+    font-family: 'Android', sans-serif;
+    text-align: left;
+    background-image: linear-gradient(to right, #0ab8585e, white);
+    color: #0e944a;
+    font-weight: normal;
+}
+main > p{
+    text-indent: 30px;
+    font-size: 1.1em;
+}
+main > div{
+    background-color: #134228;
+
+            height: 320px;
+            width: 600px;
+
+            border: 10px solid #134228;
+
+            padding: 10px;
+
+            margin: 20px auto 40px auto;
+}
+p{
+    text-align: justify;
+}
+section > h1{
+    color: white;
+    text-align: left;
+    text-indent: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #31a063;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: -1px;
+    padding: 3px;
+    
+}
+section > article{
+    background-color: #7beeaf73;
+    margin-top: 0%;
+    padding: 1%;
+    border-top: 2px;
+    border-radius: 0px 0px 10px 10px;
+}
+article > p{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+article > ul.esquerda{
+    list-style-type: none;
+    text-align: left;
+    display: inline-block;
+    padding-right: 200px;
+}
+article > ul.direita{
+    list-style-type: none;
+    text-align: left;
+    display: inline-block;
+    padding-right: 150px;
+}
+footer{
+    color: white;
+    background-color: #1A5C38;
+    text-align: center;
+    font-weight: lighter;
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-style: italic;
+}
+footer > p{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 2px;
+}
